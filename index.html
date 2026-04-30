@@ -1,197 +1,256 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ayush Pratap Singh | Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
-<body class="bg-gray-950 text-gray-200">
+
+<body class="bg-[#050505] text-white selection:bg-red-500/40 overflow-x-hidden">
+
+  <!-- Premium Black Red Glow Background -->
+  <div class="fixed inset-0 -z-10 overflow-hidden bg-black">
+    <div class="absolute -top-40 -left-40 h-[420px] w-[420px] rounded-full bg-red-600/35 blur-[120px]"></div>
+    <div class="absolute top-1/3 -right-40 h-[480px] w-[480px] rounded-full bg-red-500/25 blur-[140px]"></div>
+    <div class="absolute -bottom-44 left-1/3 h-[520px] w-[520px] rounded-full bg-red-800/30 blur-[150px]"></div>
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(239,68,68,0.12),transparent_35%)]"></div>
+    <div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.035)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.035)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
+  </div>
 
   <!-- Navbar -->
-  <nav class="fixed top-0 w-full bg-gray-950/80 backdrop-blur-md z-50 border-b border-gray-800">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold text-sky-400">Ayush<span class="text-white">.</span></h1>
-      
-      <div class="hidden md:flex gap-8">
-        <a href="#about" class="hover:text-sky-400 transition">About</a>
-        <a href="#education" class="hover:text-sky-400 transition">Education</a>
-        <a href="#skills" class="hover:text-sky-400 transition">Skills</a>
-        <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
-        <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
+  <nav class="fixed top-0 z-50 w-full border-b border-red-500/20 bg-black/55 backdrop-blur-2xl">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <a href="#" class="text-2xl font-black tracking-tight">
+        Ayush<span class="text-red-500 drop-shadow-[0_0_12px_rgba(239,68,68,0.9)]">.</span>
+      </a>
+
+      <div class="hidden items-center gap-7 text-sm text-gray-300 md:flex">
+        <a href="#about" class="transition hover:text-red-400">About</a>
+        <a href="#skills" class="transition hover:text-red-400">Skills</a>
+        <a href="#projects" class="transition hover:text-red-400">Projects</a>
+        <a href="#education" class="transition hover:text-red-400">Education</a>
+        <a href="#contact" class="transition hover:text-red-400">Contact</a>
       </div>
 
-      <div class="flex gap-4">
-        <a href="https://github.com/ayush2614" target="_blank" class="hover:text-sky-400 transition">
-          <i class="fab fa-github text-xl"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/ayushpratap26" target="_blank" class="hover:text-sky-400 transition">
-          <i class="fab fa-linkedin text-xl"></i>
-        </a>
-      </div>
+      <a href="https://raw.githubusercontent.com/ayush2614/resume/main/Ayush_Pratap_Singh_Resume.pdf" target="_blank"
+        class="rounded-full bg-red-600 px-5 py-2 text-sm font-bold text-white shadow-lg shadow-red-600/40 transition hover:bg-red-500 hover:shadow-red-500/60">
+        Resume
+      </a>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="min-h-screen flex items-center pt-20">
-    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+  <main class="pt-24">
+
+    <!-- Hero -->
+    <section class="mx-auto grid min-h-[88vh] max-w-7xl items-center gap-12 px-6 py-16 md:grid-cols-[1.1fr_0.9fr]">
       <div>
-        <h2 class="text-5xl md:text-6xl font-bold leading-tight">
-          Hi, I'm <span class="text-sky-400">Ayush Pratap Singh</span>
-        </h2>
-        <p class="text-2xl mt-4 text-gray-400">
-          Aspiring Software Developer & Machine Learning Enthusiast
+        <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-red-500/35 bg-red-500/10 px-4 py-2 text-sm text-red-300 shadow-lg shadow-red-500/10 backdrop-blur-xl">
+          <span class="h-2 w-2 rounded-full bg-red-500 shadow-[0_0_15px_rgba(239,68,68,1)]"></span>
+          Open to Software Development roles
+        </div>
+
+        <h1 class="max-w-4xl text-5xl font-black leading-tight tracking-tight md:text-7xl">
+          Welcome Everyone.... 
+          <span class="text-red-500 drop-shadow-[0_0_25px_rgba(239,68,68,0.7)]">Explore my Journey</span>
+          TILL now
+        </h1>
+
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-gray-300">
+          I’m <span class="font-semibold text-white">Ayush Pratap Singh</span>, an MCA final-year student focused on Python, Java, Flask, REST APIs, SQL, Data Science, and Machine Learning.
         </p>
-        <p class="mt-6 text-gray-300 text-lg max-w-lg">
-          MCA Final Year student passionate about building scalable full-stack applications 
-          and intelligent data-driven solutions.
-        </p>
-        
-        <div class="mt-8 flex gap-4">
-          <a href="https://raw.githubusercontent.com/ayush2614/resume/main/Ayush_Pratap_Singh_Resume.pdf" class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-lg font-medium transition">
-            Resume
-          </a>
-          <a href="#projects" class="border border-gray-400 hover:border-sky-400 px-6 py-3 rounded-lg font-medium transition">
+
+        <div class="mt-9 flex flex-wrap gap-4">
+          <a href="#projects"
+            class="rounded-xl bg-red-600 px-6 py-3 font-bold text-white shadow-lg shadow-red-600/35 transition hover:bg-red-500 hover:shadow-red-500/60">
             View Projects
           </a>
+
+          <a href="mailto:ayushpratap2614@gmail.com"
+            class="rounded-xl border border-red-500/30 bg-white/5 px-6 py-3 font-bold text-white backdrop-blur-xl transition hover:border-red-400 hover:bg-red-500/10 hover:text-red-300">
+            Contact Me
+          </a>
         </div>
 
-        <div class="mt-10 flex gap-6 text-3xl">
-          <a href="https://github.com/ayush2614" target="_blank" class="hover:text-sky-400 transition">
+        <div class="mt-10 flex gap-5 text-2xl text-gray-300">
+          <a href="https://github.com/ayush2614" target="_blank" class="transition hover:text-red-400">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/ayushpratap26" target="_blank" class="hover:text-sky-400 transition">
+          <a href="https://www.linkedin.com/in/ayushpratap26" target="_blank" class="transition hover:text-red-400">
             <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:ayushpratap2614@gmail.com" class="transition hover:text-red-400">
+            <i class="fas fa-envelope"></i>
           </a>
         </div>
       </div>
 
-      <div class="flex justify-center">
-        <img src="profile.jpg.png" 
-             alt="Ayush Pratap Singh" 
-             class="w-80 h-80 object-cover rounded-2xl border-4 border-sky-500 shadow-2xl">
-      </div>
-    </div>
-  </section>
+      <div class="relative mx-auto w-full max-w-md">
+        <div class="absolute -inset-5 rounded-[2rem] bg-red-600/40 blur-3xl"></div>
 
-  <!-- About -->
-  <section id="about" class="py-20 bg-gray-900">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12">About Me</h2>
-      <p class="max-w-3xl mx-auto text-lg text-gray-300 leading-relaxed text-center">
-        I am an MCA final-year student with hands-on experience in building full-stack web applications 
-        and machine learning models. Proficient in Python, Java, Flask, REST APIs, and SQL databases. 
-        Strong foundation in DSA, OOP, DBMS, and Agile SDLC. Passionate about writing clean, scalable, 
-        and production-ready code.
-      </p>
-    </div>
-  </section>
+        <div class="relative rounded-[2rem] border border-red-500/25 bg-white/[0.07] p-4 shadow-2xl shadow-red-900/40 backdrop-blur-2xl">
+          <img src="profile.jpg.png" alt="Ayush Pratap Singh" class="h-[440px] w-full rounded-[1.5rem] object-cover" />
 
-  <!-- Education -->
-  <section id="education" class="py-20">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12">Education</h2>
-      <div class="grid md:grid-cols-2 gap-8">
-        <div class="bg-gray-900 p-8 rounded-xl border border-gray-800">
-          <h3 class="text-xl font-semibold">Master of Computer Applications (MCA)</h3>
-          <p class="text-sky-400 mt-2">GNIOT, Greater Noida • 2024 – 2026</p>
-        </div>
-        <div class="bg-gray-900 p-8 rounded-xl border border-gray-800">
-          <h3 class="text-xl font-semibold">Bachelor of Computer Applications (BCA)</h3>
-          <p class="text-sky-400 mt-2">SMS, Varanasi • 2021 – 2024</p>
-        </div>
-        <div class="bg-gray-900 p-8 rounded-xl border border-gray-800">
-          <h3 class="text-xl font-semibold">Intermediate(12th)</h3>
-          <p class="text-sky-400 mt-2">SHPS, Varanasi • 2021</p>
-        </div>
-        <div class="bg-gray-900 p-8 rounded-xl border border-gray-800">
-          <h3 class="text-xl font-semibold">Matriculation(10th)</h3>
-          <p class="text-sky-400 mt-2">SHPS, Varanasi • 2019</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skills -->
-  <section id="skills" class="py-20 bg-gray-900">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12">Technical Skills</h2>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
-        <div class="bg-gray-800 p-6 rounded-xl"><strong>Languages:</strong><br>Python, Java, C, C++</div>
-        <div class="bg-gray-800 p-6 rounded-xl"><strong>Web Development:</strong><br>HTML5, CSS3, JavaScript, REST APIs, Flask</div>
-        <div class="bg-gray-800 p-6 rounded-xl"><strong>Data Science & ML:</strong><br>Pandas, NumPy, Scikit-learn, Matplotlib,</div>
-        <div class="bg-gray-800 p-6 rounded-xl"><strong>Databases:</strong><br>MySQL, PostgreSQL, SQLite, Oracle</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section id="projects" class="py-20">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-center mb-12">Featured Projects</h2>
-      
-      <div class="grid md:grid-cols-2 gap-8">
-        <!-- Project 1 -->
-        <div class="bg-gray-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-sky-500 transition">
-          <div class="h-2 bg-gradient-to-r from-sky-400 to-blue-500"></div>
-          <div class="p-8">
-            <h3 class="text-2xl font-semibold">Full-Stack Social Media Web App</h3>
-            <p class="text-sm text-gray-400 mt-2">Flask • SQLite • HTML5 • CSS3 • JavaScript • 2024</p>
-            <ul class="mt-6 space-y-3 text-gray-300">
-              <li>• Secure authentication system with session management</li>
-              <li>• RESTful CRUD operations with image upload</li>
-              <li>• Fully responsive UI with 100+ user interaction support</li>
-            </ul>
-            <a href="https://github.com/ayush2614" target="_blank" class="inline-block mt-6 text-sky-400 hover:text-sky-300">
-              View on GitHub →
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 2 -->
-        <div class="bg-gray-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-sky-500 transition">
-          <div class="h-2 bg-gradient-to-r from-purple-500 to-pink-500"></div>
-          <div class="p-8">
-            <h3 class="text-2xl font-semibold">Loan Approval Prediction Model</h3>
-            <p class="text-sm text-gray-400 mt-2">Python • Scikit-learn • Pandas • 2024</p>
-            <ul class="mt-6 space-y-3 text-gray-300">
-              <li>• Achieved 80%+ prediction accuracy</li>
-              <li>• Performed complete EDA and preprocessing</li>
-              <li>• Trained Logistic Regression & Decision Tree models</li>
-            </ul>
-            <a href="https://github.com/ayush2614" target="_blank" class="inline-block mt-6 text-sky-400 hover:text-sky-300">
-              View on GitHub →
-            </a>
+          <div class="mt-4 grid grid-cols-3 gap-3 text-center text-sm">
+            <div class="rounded-2xl border border-red-500/15 bg-black/45 p-4 backdrop-blur-xl">
+              <b class="block text-xl text-white">MCA</b>
+              <span class="text-gray-400">Final Year</span>
+            </div>
+            <div class="rounded-2xl border border-red-500/15 bg-black/45 p-4 backdrop-blur-xl">
+              <b class="block text-xl text-white">2+</b>
+              <span class="text-gray-400">Projects</span>
+            </div>
+            <div class="rounded-2xl border border-red-500/15 bg-black/45 p-4 backdrop-blur-xl">
+              <b class="block text-xl text-white">ML</b>
+              <span class="text-gray-400">Focused</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact -->
-  <section id="contact" class="py-20 bg-gray-900">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
-      <p class="text-gray-400 mb-8">I'm always open to discussing new opportunities and collaborations.</p>
-      
-      <div class="flex justify-center gap-6 text-4xl">
-        <a href="https://github.com/ayush2614" target="_blank" class="hover:text-sky-400 transition"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/ayushpratap26" target="_blank" class="hover:text-sky-400 transition"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:ayushpratap2614@gmail.com" class="hover:text-sky-400 transition"><i class="fas fa-envelope"></i></a>
+    <!-- About -->
+    <section id="about" class="mx-auto max-w-7xl px-6 py-20">
+      <div class="rounded-[2rem] border border-red-500/20 bg-white/[0.06] p-8 shadow-2xl shadow-red-950/30 backdrop-blur-2xl md:p-12">
+        <p class="mb-3 text-sm font-bold uppercase tracking-[0.3em] text-red-400">About Me</p>
+        <h2 class="text-3xl font-black md:text-5xl">A developer who likes practical, scalable solutions.</h2>
+        <p class="mt-6 max-w-4xl text-lg leading-8 text-gray-300">
+          I build full-stack applications and ML models with a strong foundation in DSA, OOP, DBMS, Agile SDLC, Python, Java, Flask, REST APIs, and SQL databases.
+        </p>
       </div>
+    </section>
 
-      <p class="mt-12 text-gray-500">
-        Greater Noida, India • +91 8736017422 • ayushpratap2614@gmail.com
-      </p>
-    </div>
-  </section>
+    <!-- Skills -->
+    <section id="skills" class="mx-auto max-w-7xl px-6 py-20">
+      <p class="text-sm font-bold uppercase tracking-[0.3em] text-red-400">Skills</p>
+      <h2 class="mt-3 text-4xl font-black">Technical Toolbox</h2>
 
-  <footer class="py-6 text-center text-gray-500 text-sm">
+      <div class="mt-10 grid gap-5 md:grid-cols-4">
+        <div class="rounded-3xl border border-red-500/20 bg-white/[0.06] p-6 shadow-lg shadow-red-950/20 backdrop-blur-2xl transition hover:-translate-y-1 hover:border-red-400/60 hover:shadow-red-600/20">
+          <i class="fa-solid fa-code mb-5 text-3xl text-red-500"></i>
+          <h3 class="text-xl font-bold">Languages</h3>
+          <p class="mt-3 text-gray-400">Python, Java, C, C++</p>
+        </div>
+
+        <div class="rounded-3xl border border-red-500/20 bg-white/[0.06] p-6 shadow-lg shadow-red-950/20 backdrop-blur-2xl transition hover:-translate-y-1 hover:border-red-400/60 hover:shadow-red-600/20">
+          <i class="fa-solid fa-globe mb-5 text-3xl text-red-500"></i>
+          <h3 class="text-xl font-bold">Web</h3>
+          <p class="mt-3 text-gray-400">HTML, CSS, JavaScript, Flask, REST APIs</p>
+        </div>
+
+        <div class="rounded-3xl border border-red-500/20 bg-white/[0.06] p-6 shadow-lg shadow-red-950/20 backdrop-blur-2xl transition hover:-translate-y-1 hover:border-red-400/60 hover:shadow-red-600/20">
+          <i class="fa-solid fa-brain mb-5 text-3xl text-red-500"></i>
+          <h3 class="text-xl font-bold">ML & DS</h3>
+          <p class="mt-3 text-gray-400">Pandas, NumPy, Scikit-learn, Matplotlib</p>
+        </div>
+
+        <div class="rounded-3xl border border-red-500/20 bg-white/[0.06] p-6 shadow-lg shadow-red-950/20 backdrop-blur-2xl transition hover:-translate-y-1 hover:border-red-400/60 hover:shadow-red-600/20">
+          <i class="fa-solid fa-database mb-5 text-3xl text-red-500"></i>
+          <h3 class="text-xl font-bold">Databases</h3>
+          <p class="mt-3 text-gray-400">MySQL, PostgreSQL, SQLite, Oracle</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="mx-auto max-w-7xl px-6 py-20">
+      <p class="text-sm font-bold uppercase tracking-[0.3em] text-red-400">Projects</p>
+      <h2 class="mt-3 text-4xl font-black">Featured Work</h2>
+
+      <div class="mt-10 grid gap-6 md:grid-cols-2">
+        <article class="rounded-[2rem] border border-red-500/20 bg-white/[0.06] p-7 shadow-2xl shadow-red-950/25 backdrop-blur-2xl transition hover:-translate-y-1 hover:border-red-400/60 hover:shadow-red-600/20">
+          <div class="mb-6 h-2 w-24 rounded-full bg-gradient-to-r from-red-700 to-red-400 shadow-lg shadow-red-500/40"></div>
+
+          <h3 class="text-2xl font-bold">Full-Stack Social Media Web App</h3>
+          <p class="mt-2 text-sm text-gray-400">Flask · SQLite · HTML5 · CSS3 · JavaScript</p>
+
+          <ul class="mt-6 space-y-3 text-gray-300">
+            <li>✓ Secure authentication with session management</li>
+            <li>✓ RESTful CRUD operations with image upload</li>
+            <li>✓ Responsive UI supporting 100+ interactions</li>
+          </ul>
+
+          <a href="https://github.com/ayush2614" target="_blank" class="mt-7 inline-flex items-center gap-2 font-semibold text-red-400">
+            View on GitHub <span>→</span>
+          </a>
+        </article>
+
+        <article class="rounded-[2rem] border border-red-500/20 bg-white/[0.06] p-7 shadow-2xl shadow-red-950/25 backdrop-blur-2xl transition hover:-translate-y-1 hover:border-red-400/60 hover:shadow-red-600/20">
+          <div class="mb-6 h-2 w-24 rounded-full bg-gradient-to-r from-red-700 to-pink-500 shadow-lg shadow-red-500/40"></div>
+
+          <h3 class="text-2xl font-bold">Loan Approval Prediction Model</h3>
+          <p class="mt-2 text-sm text-gray-400">Python · Scikit-learn · Pandas</p>
+
+          <ul class="mt-6 space-y-3 text-gray-300">
+            <li>✓ Achieved 80%+ prediction accuracy</li>
+            <li>✓ Complete EDA and preprocessing</li>
+            <li>✓ Logistic Regression & Decision Tree models</li>
+          </ul>
+
+          <a href="https://github.com/ayush2614" target="_blank" class="mt-7 inline-flex items-center gap-2 font-semibold text-red-400">
+            View on GitHub <span>→</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="mx-auto max-w-7xl px-6 py-20">
+      <p class="text-sm font-bold uppercase tracking-[0.3em] text-red-400">Education</p>
+      <h2 class="mt-3 text-4xl font-black">Academic Journey</h2>
+
+      <div class="mt-10 grid gap-5 md:grid-cols-2">
+        <div class="rounded-3xl border border-red-500/20 bg-white/[0.06] p-6 backdrop-blur-2xl">
+          <h3 class="text-xl font-bold">MCA</h3>
+          <p class="mt-2 text-red-300">GNIOT, Greater Noida · 2024–2026</p>
+        </div>
+
+        <div class="rounded-3xl border border-red-500/20 bg-white/[0.06] p-6 backdrop-blur-2xl">
+          <h3 class="text-xl font-bold">BCA</h3>
+          <p class="mt-2 text-red-300">SMS, Varanasi · 2021–2024</p>
+        </div>
+
+        <div class="rounded-3xl border border-red-500/20 bg-white/[0.06] p-6 backdrop-blur-2xl">
+          <h3 class="text-xl font-bold">Intermediate</h3>
+          <p class="mt-2 text-red-300">SHPS, Varanasi · 2021</p>
+        </div>
+
+        <div class="rounded-3xl border border-red-500/20 bg-white/[0.06] p-6 backdrop-blur-2xl">
+          <h3 class="text-xl font-bold">Matriculation</h3>
+          <p class="mt-2 text-red-300">SHPS, Varanasi · 2019</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="mx-auto max-w-7xl px-6 py-24">
+      <div class="rounded-[2rem] border border-red-500/25 bg-red-600/15 p-10 text-center shadow-2xl shadow-red-700/30 backdrop-blur-2xl md:p-16">
+        <h2 class="text-4xl font-black md:text-5xl">Let’s build something useful.</h2>
+
+        <p class="mx-auto mt-5 max-w-2xl text-lg text-gray-300">
+          Open to internships, software development roles, collaborations, and project discussions.
+        </p>
+
+        <div class="mt-8 flex flex-wrap justify-center gap-4">
+          <a href="mailto:ayushpratap2614@gmail.com"
+            class="rounded-xl bg-red-600 px-6 py-3 font-bold text-white shadow-lg shadow-red-600/35 transition hover:bg-red-500">
+            Email Me
+          </a>
+
+          <a href="https://www.linkedin.com/in/ayushpratap26" target="_blank"
+            class="rounded-xl border border-white/25 bg-white/5 px-6 py-3 font-bold text-white transition hover:border-red-400 hover:text-red-300">
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="border-t border-red-500/20 py-8 text-center text-sm text-gray-500">
     © 2025 Ayush Pratap Singh. Built Different.
   </footer>
 
-  <script src="script.js"></script>
 </body>
+</html>
