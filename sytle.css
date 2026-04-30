@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Custom styles */
 @tailwind base;
 @tailwind components;
@@ -20,4 +21,28 @@ h1, h2, h3 {
   transform: translateY(-8px);
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 
               0 8px 10px -6px rgb(0 0 0 / 0.1);
+=======
+/* Custom styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Hover effect for project cards */
+.project-card {
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 
+              0 8px 10px -6px rgb(0 0 0 / 0.1);
+>>>>>>> 7d92693012de669b907de2af5b48dd18de966207
 }
