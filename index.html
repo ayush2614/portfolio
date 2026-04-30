@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayush Pratap Singh | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body class="bg-gray-950 text-gray-200">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-gray-950/80 backdrop-blur-md z-50 border-b border-gray-800">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-sky-400">Ayush<span class="text-white">.</span></h1>
+      
+      <div class="hidden md:flex gap-8">
+        <a href="#about" class="hover:text-sky-400 transition">About</a>
+        <a href="#education" class="hover:text-sky-400 transition">Education</a>
+        <a href="#skills" class="hover:text-sky-400 transition">Skills</a>
+        <a href="#projects" class="hover:text-sky-400 transition">Projects</a>
+        <a href="#contact" class="hover:text-sky-400 transition">Contact</a>
+      </div>
+
+      <div class="flex gap-4">
+        <a href="https://github.com/ayush2614" target="_blank" class="hover:text-sky-400 transition">
+          <i class="fab fa-github text-xl"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ayushpratap26" target="_blank" class="hover:text-sky-400 transition">
+          <i class="fab fa-linkedin text-xl"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center pt-20">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-5xl md:text-6xl font-bold leading-tight">
+          Hi, I'm <span class="text-sky-400">Ayush Pratap Singh</span>
+        </h2>
+        <p class="text-2xl mt-4 text-gray-400">
+          Aspiring Software Developer & Machine Learning Enthusiast
+        </p>
+        <p class="mt-6 text-gray-300 text-lg max-w-lg">
+          MCA Final Year student passionate about building scalable full-stack applications 
+          and intelligent data-driven solutions.
+        </p>
+        
+        <div class="mt-8 flex gap-4">
+          <a href="https://github.com/ayush2614/resume/blob/main/Ayush_Pratap_Singh_Resume.pdf" class="bg-sky-500 hover:bg-sky-600 px-6 py-3 rounded-lg font-medium transition">
+            Resume
+          </a>
+          <a href="#projects" class="border border-gray-400 hover:border-sky-400 px-6 py-3 rounded-lg font-medium transition">
+            View Projects
+          </a>
+        </div>
+
+        <div class="mt-10 flex gap-6 text-3xl">
+          <a href="https://github.com/ayush2614" target="_blank" class="hover:text-sky-400 transition">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ayushpratap26" target="_blank" class="hover:text-sky-400 transition">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <img src="profile.jpg.png" 
+             alt="Ayush Pratap Singh" 
+             class="w-80 h-80 object-cover rounded-2xl border-4 border-sky-500 shadow-2xl">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">About Me</h2>
+      <p class="max-w-3xl mx-auto text-lg text-gray-300 leading-relaxed text-center">
+        I am an MCA final-year student with hands-on experience in building full-stack web applications 
+        and machine learning models. Proficient in Python, Java, Flask, REST APIs, and SQL databases. 
+        Strong foundation in DSA, OOP, DBMS, and Agile SDLC. Passionate about writing clean, scalable, 
+        and production-ready code.
+      </p>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Education</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-900 p-8 rounded-xl border border-gray-800">
+          <h3 class="text-xl font-semibold">Master of Computer Applications (MCA)</h3>
+          <p class="text-sky-400 mt-2">GNIOT, Greater Noida • 2024 – 2026</p>
+        </div>
+        <div class="bg-gray-900 p-8 rounded-xl border border-gray-800">
+          <h3 class="text-xl font-semibold">Bachelor of Computer Applications (BCA)</h3>
+          <p class="text-sky-400 mt-2">SMS, Varanasi • 2021 – 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Technical Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div class="bg-gray-800 p-6 rounded-xl"><strong>Languages:</strong><br>Python, Java, C, C++</div>
+        <div class="bg-gray-800 p-6 rounded-xl"><strong>Web Development:</strong><br>HTML5, CSS3, JavaScript, REST APIs, Flask</div>
+        <div class="bg-gray-800 p-6 rounded-xl"><strong>Data Science & ML:</strong><br>Pandas, NumPy, Scikit-learn, Matplotlib,</div>
+        <div class="bg-gray-800 p-6 rounded-xl"><strong>Databases:</strong><br>MySQL, PostgreSQL, SQLite, Oracle</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Featured Projects</h2>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-gray-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-sky-500 transition">
+          <div class="h-2 bg-gradient-to-r from-sky-400 to-blue-500"></div>
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold">Full-Stack Social Media Web App</h3>
+            <p class="text-sm text-gray-400 mt-2">Flask • SQLite • HTML5 • CSS3 • JavaScript • 2024</p>
+            <ul class="mt-6 space-y-3 text-gray-300">
+              <li>• Secure authentication system with session management</li>
+              <li>• RESTful CRUD operations with image upload</li>
+              <li>• Fully responsive UI with 100+ user interaction support</li>
+            </ul>
+            <a href="https://github.com/ayush2614" target="_blank" class="inline-block mt-6 text-sky-400 hover:text-sky-300">
+              View on GitHub →
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-gray-900 border border-gray-700 rounded-2xl overflow-hidden hover:border-sky-500 transition">
+          <div class="h-2 bg-gradient-to-r from-purple-500 to-pink-500"></div>
+          <div class="p-8">
+            <h3 class="text-2xl font-semibold">Loan Approval Prediction Model</h3>
+            <p class="text-sm text-gray-400 mt-2">Python • Scikit-learn • Pandas • 2024</p>
+            <ul class="mt-6 space-y-3 text-gray-300">
+              <li>• Achieved 80%+ prediction accuracy</li>
+              <li>• Performed complete EDA and preprocessing</li>
+              <li>• Trained Logistic Regression & Decision Tree models</li>
+            </ul>
+            <a href="https://github.com/ayush2614" target="_blank" class="inline-block mt-6 text-sky-400 hover:text-sky-300">
+              View on GitHub →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+      <p class="text-gray-400 mb-8">I'm always open to discussing new opportunities and collaborations.</p>
+      
+      <div class="flex justify-center gap-6 text-4xl">
+        <a href="https://github.com/ayush2614" target="_blank" class="hover:text-sky-400 transition"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ayushpratap26" target="_blank" class="hover:text-sky-400 transition"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:ayushpratap2614@gmail.com" class="hover:text-sky-400 transition"><i class="fas fa-envelope"></i></a>
+      </div>
+
+      <p class="mt-12 text-gray-500">
+        Greater Noida, India • +91 8736017422 • ayushpratap2614@gmail.com
+      </p>
+    </div>
+  </section>
+
+  <footer class="py-6 text-center text-gray-500 text-sm">
+    © 2025 Ayush Pratap Singh. Built Different.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
