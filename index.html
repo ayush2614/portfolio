@@ -284,6 +284,78 @@
       </div>
     </section>
 
+<!-- View More Projects Button -->
+<div class="md:col-span-2 mt-12 text-center">
+  <button id="viewMoreProjectsBtn"
+    class="rounded-xl bg-red-600 px-7 py-3 font-bold text-white shadow-lg shadow-red-600/35 transition hover:-translate-y-1 hover:bg-red-500">
+    View More Projects ↓
+  </button>
+</div>
+
+<!-- More Mini Projects -->
+<div id="moreProjects" class="md:col-span-2 hidden">
+  <div class="mt-8 mx-auto max-w-6xl grid gap-5 md:grid-cols-3 justify-items-center">
+
+    <!-- Raftar X Road -->
+    <article class="w-[320px] rounded-[1.5rem] border border-orange-400/25 bg-orange-500/[0.08] p-5 shadow-xl shadow-orange-900/20 backdrop-blur-2xl transition hover:-translate-y-1 hover:border-orange-300/70">
+      <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-orange-500/20 text-xl text-orange-300">
+        <i class="fa-solid fa-car-side"></i>
+      </div>
+
+      <h3 class="text-lg font-bold">Raftar X Road</h3>
+      <p class="mt-1 text-xs text-orange-200/80">HTML · CSS · JavaScript</p>
+
+      <p class="mt-3 text-sm leading-6 text-gray-300">
+        Endless car racing game with coins, score, pause, and mobile controls.
+      </p>
+
+      <a href="https://ayush2614.github.io/raftar-x-road/" target="_blank"
+        class="mt-5 inline-block rounded-xl bg-orange-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-orange-500/25 transition hover:bg-orange-400">
+        Live Demo →
+      </a>
+    </article>
+
+    <!-- Guess The Number -->
+    <article class="w-[320px] rounded-[1.5rem] border border-pink-400/25 bg-pink-500/[0.08] p-5 shadow-xl shadow-pink-900/20 backdrop-blur-2xl transition hover:-translate-y-1 hover:border-pink-300/70">
+      <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-pink-500/20 text-xl text-pink-300">
+        <i class="fa-solid fa-bullseye"></i>
+      </div>
+
+      <h3 class="text-lg font-bold">Guess The Number</h3>
+      <p class="mt-1 text-xs text-pink-200/80">HTML · CSS · JavaScript</p>
+
+      <p class="mt-3 text-sm leading-6 text-gray-300">
+        Fun guessing game with score, hints, restart, and interactive gameplay.
+      </p>
+
+      <a href="https://ayush2614.github.io/guess-the-number/" target="_blank"
+        class="mt-5 inline-block rounded-xl bg-pink-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-pink-500/25 transition hover:bg-pink-400">
+        Live Demo →
+      </a>
+    </article>
+
+    <!-- Samay -->
+    <article class="w-[320px] rounded-[1.5rem] border border-cyan-400/25 bg-cyan-500/[0.08] p-5 shadow-xl shadow-cyan-900/20 backdrop-blur-2xl transition hover:-translate-y-1 hover:border-cyan-300/70">
+      <div class="mb-4 flex h-10 w-10 items-center justify-center rounded-xl bg-cyan-500/20 text-xl text-cyan-300">
+        <i class="fa-solid fa-clock"></i>
+      </div>
+
+      <h3 class="text-lg font-bold">Samay</h3>
+      <p class="mt-1 text-xs text-cyan-200/80">HTML · CSS · JavaScript</p>
+
+      <p class="mt-3 text-sm leading-6 text-gray-300">
+        Futuristic neon analog + digital animated clock experience.
+      </p>
+
+      <a href="https://ayush2614.github.io/samay/" target="_blank"
+        class="mt-5 inline-block rounded-xl bg-cyan-500 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-cyan-500/25 transition hover:bg-cyan-400">
+        Live Demo →
+      </a>
+    </article>
+
+  </div>
+</div>
+
     <!-- Education -->
     <section id="education" class="mx-auto max-w-7xl px-6 py-20">
       <p class="text-sm font-bold uppercase tracking-[0.3em] text-red-400">Education</p>
@@ -340,6 +412,20 @@
   <footer class="border-t border-red-500/20 py-8 text-center text-sm text-gray-500">
     © 2025 Ayush Pratap Singh. Built Different.
   </footer>
+<script>
+  const viewMoreBtn = document.getElementById("viewMoreProjectsBtn");
+  const moreProjects = document.getElementById("moreProjects");
+
+  viewMoreBtn.addEventListener("click", () => {
+    moreProjects.classList.toggle("hidden");
+
+    if (moreProjects.classList.contains("hidden")) {
+      viewMoreBtn.innerText = "View More Projects ↓";
+    } else {
+      viewMoreBtn.innerText = "Hide Projects ↑";
+    }
+  });
+</script>
 
 </body>
 </html>
